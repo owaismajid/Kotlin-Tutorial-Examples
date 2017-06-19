@@ -15,7 +15,7 @@ val/var Name:   Type    = Value             //Size */
     val short:  Short   = 457               //16 bits
     val byte:   Byte    = 110               //8  bits
     val double: Double  = 95478.254         //64 bits
-    val float:  Float   = 75488.254F        //32 bits
+    val float:  Float   = 75488.254F        //32 bits 
 
 
 
@@ -41,6 +41,12 @@ val/var Name:   Type    = Value             //Size */
     println("Float Max: ${Float.MAX_VALUE} , Min: ${Float.MAX_VALUE}")
             //Float Max: 3.4028235E38 , Min: 3.4028235E38
 
+
+    //Number literal
+    val hexadecimal = 0xAB
+    val binary = 0b01010101
+
+    
 }
 
 
