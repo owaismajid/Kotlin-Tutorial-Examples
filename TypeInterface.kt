@@ -77,6 +77,14 @@ val/var Name:   Type    = Value             //Size */
 
 /*3*/    // Arrays---------------------------------------
 
+    val array = arrayOf(5, 3, 4, 1, 15)
+    var TArray: Array<String> = arrayOf("One", "Five" , "Three")
+    TArray[1] = "Two"
+    val SArray = Array(5, {e -> e * e})
+    // To print the Array Use [name of array].forEach()
+    TArray.forEach{ print("$it ") } // One Two Three 
+    SArray.forEach{ print("$it ") } // 0 1 4 9 16 
+
 }
 
 
