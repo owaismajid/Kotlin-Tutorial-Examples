@@ -73,13 +73,14 @@ val/var Name:   Type    = Value             //Size */
     // Strings Templates
     val varTemplate: String = "var $charUni = ض"
     val moreTemplate:String = "Floor($double) = ${double.toInt()}"
-    println(moreTemplate)
+    println(moreTemplate)       //Floor(95478.254) = 95478
 
 /*3*/    // Arrays---------------------------------------
 
+    //          index: [0][1][2][3][4] , length = 5 or (Last index + 1)
     val array = arrayOf(5, 3, 4, 1, 15)
     var TArray: Array<String> = arrayOf("One", "Five" , "Three")
-    TArray[1] = "Two"
+    TArray[1] = "Two" // Changing an element by providing its Key
     val SArray = Array(5, {e -> e * e})
     // To print the Array Use [name of array].forEach()
     TArray.forEach{ print("$it ") } // One Two Three 
