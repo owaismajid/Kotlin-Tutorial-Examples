@@ -24,21 +24,21 @@ val/var Name:   Type    = Value             //Size */
 
     //Example of How to :
 
-    println("Long Max: ${Long.MAX_VALUE} , Min: ${Long.MAX_VALUE}")
+    println("Long Max: ${Long.MAX_VALUE} , Min: ${Long.MIN_VALUE}")
             //Long  Max: 9223372036854775807 , Min: 9223372036854775807
 
-    println("Short Max: ${Short.MAX_VALUE} , Min: ${Short.MAX_VALUE}")
+    println("Short Max: ${Short.MAX_VALUE} , Min: ${Short.MIN_VALUE}")
             //Short Max: 32767 , Min: 32767
 
-    println("Int Max: ${Int.MAX_VALUE} , Min: ${Int.MAX_VALUE}")
+    println("Int Max: ${Int.MAX_VALUE} , Min: ${Int.MIN_VALUE}")
             //Int Max: 2147483647 , Min: 2147483647
 
-    println("Byte Max: ${Byte.MAX_VALUE} , Min: ${Byte.MAX_VALUE}")
+    println("Byte Max: ${Byte.MAX_VALUE} , Min: ${Byte.MIN_VALUE}")
             //Byte Max: 127 , Min: 127
-    println("Double Max: ${Double.MAX_VALUE} , Min: ${Double.MAX_VALUE}")
+    println("Double Max: ${Double.MAX_VALUE} , Min: ${Double.MIN_VALUE}")
             //Double Max: 1.7976931348623157E308 , Min: 1.7976931348623157E308
 
-    println("Float Max: ${Float.MAX_VALUE} , Min: ${Float.MAX_VALUE}")
+    println("Float Max: ${Float.MAX_VALUE} , Min: ${Float.MIN_VALUE}")
             //Float Max: 3.4028235E38 , Min: 3.4028235E38
 
 
