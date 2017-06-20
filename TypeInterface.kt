@@ -74,6 +74,9 @@ val/var Name:   Type    = Value             //Size */
     val varTemplate: String = "var $charUni = ض"
     val moreTemplate:String = "Floor($double) = ${double.toInt()}"
     println(moreTemplate)
+
+/*3*/    // Arrays---------------------------------------
+
 }
 
 
