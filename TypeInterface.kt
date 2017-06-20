@@ -7,7 +7,7 @@
     // Basic Types
 fun main (arg: Array<String>){
 
-    // Numbers
+/*1*/   // Numbers---------------------------------------
 /*
 val/var Name:   Type    = Value             //Size */
     val long:   Long    = 4874214699752L    //64 bits
@@ -47,6 +47,33 @@ val/var Name:   Type    = Value             //Size */
     val binary = 0b01010101
 
     
+
+/*2*/   // Booleans---------------------------------------
+
+    val True: Boolean = true
+    val False: Boolean = false
+
+/*3*/    // Chars---------------------------------------
+
+    val charA:      Char = 'A'  // A
+    val charZ:      Char = 'Z'  // Z
+    val char_a:     Char = 'a'  // a
+    val char_f:     Char = 'f'  // f
+    val charEscape: Char = '\n' //New Line
+    val charUni:    Char = '\u0636' // ض
+    val char1:      Char = '1'  // 1 !not a number
+
+/*3*/    // Strings---------------------------------------
+
+    val string:      String = "Some Text"
+    val stringEscape:String = "New \n Line"
+    val stringRow:   String = """1st Line
+                                2nd Line
+                                3rd Line """
+    // Strings Templates
+    val varTemplate: String = "var $charUni = ض"
+    val moreTemplate:String = "Floor($double) = ${double.toInt()}"
+    println(moreTemplate)
 }
 
 
